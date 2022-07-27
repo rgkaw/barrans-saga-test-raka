@@ -4,7 +4,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BarrensSagaRiddleTest {
+class BarransSagaRiddleTest {
     //csv column : testCase  |  ageDeathA  |  yearDeathA  |  ageDeathB  |  yearDeathB  |  expected
     //csv file dir : /src/test/resources/testcases.scv
     @ParameterizedTest
@@ -13,6 +13,6 @@ class BarrensSagaRiddleTest {
     void Test1(int ageDeathA,int yearDeathA,int ageDeathB,int yearDeathB,Double expected) {
         Villager A = new Villager(ageDeathA,yearDeathA);
         Villager B = new Villager(ageDeathB,yearDeathB);
-        assertEquals(expected, BarrensSagaRiddle.AveragePeopleKilled(A,B));
+        assertEquals(expected, BarransSagaRiddle.AveragePeopleKilled(A,B));
     }
 }
