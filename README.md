@@ -4,7 +4,7 @@ barrans saga riddle test
 run BarransSagaRiddle.java with your favorite IDE, or run manually:
 1. open cmd/terminal, change directory to [program-directory]/src/main/java and compile program using command 'javac BarransSagaRiddle.java'.
 2. run program with 'java BarransSagaRiddle'
-3. insert AgeOfDeath Person A, YeaOfDeath Person A, AgeOfDeath Person B, YeaOfDeath Person B.
+3. insert AgeOfDeath Person A, YearOfDeath Person A, AgeOfDeath Person B, YearOfDeath Person B.
 4. output will shown in cmd/terminal. 
 after compiling, the program can be run without re-compiling the program.
 
