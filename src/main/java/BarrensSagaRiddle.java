@@ -1,10 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
-public class BarransSagaRidle {
-    public int killedVillager;
-    public double averageKilledPeople;
+public class BarrensSagaRiddle {
     public static void main(String[] args) {
 
         try{
@@ -13,8 +10,7 @@ public class BarransSagaRidle {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             String lines=br.readLine();
             String[] strs = lines.trim().split("\\s+");
-            int[] a=new int[4];
-            Villager A=new Villager(Integer.parseInt(strs[0]),Integer.parseInt(strs[1]));
+             Villager A=new Villager(Integer.parseInt(strs[0]),Integer.parseInt(strs[1]));
             Villager B=new Villager(Integer.parseInt(strs[2]),Integer.parseInt(strs[3]));
             Double averageKilled= AveragePeopleKilled(A,B);
             System.out.println(averageKilled);
